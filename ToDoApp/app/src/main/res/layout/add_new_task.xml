@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/txt_add_task"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="7dp"
+        android:paddingEnd="7dp"
+        android:hint="Enter a New Task"
+        android:layout_margin="16dp"
+        />
+    <Button
+        android:id="@+id/btn_add_task"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:layout_below="@id/spinner"
+        android:text="Save"
+        android:layout_alignParentEnd="true"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:layout_marginEnd="10dp"
+        android:background="@drawable/rounded_edittext_light_blue"
+        android:layout_marginBottom="20dp"
+        />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt_add_task"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:inputType="none"
+        android:text="Select an item"
+        />
+
+
+
+</RelativeLayout>
