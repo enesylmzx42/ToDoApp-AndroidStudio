@@ -1,5 +1,5 @@
 # Android Todo App
-This project represents a collaborative effort by Group 2 for the 4th-semester project assignment. The application is a Todo app that enables users to add tasks, create categories, register, and modify user information.
+This project represents a Todo application developed as a collaborative effort for the 4th-semester project assignment. The application allows users to add tasks, create categories, register, and modify user information.
 
 ## Features
 
